@@ -36,9 +36,9 @@ Unreal Engine 5, C++, Visual Studio 2022, Git, GameAIfy
 
 ---
 
-## 2. 체계적인 UI 위젯 관리
-- 단일 책임 원칙 준수
-- 위젯 매니저를 통해 상/중/하단 대화창, 페이드 인/아웃 위젯 등 관리
+## 2. 효율적인 UI 위젯 관리
+- 게임 모드에 컴포지션된 WidgetManager를 통해 상/중/하단 대화창, 페이드 인/아웃 위젯 등 관리
+- 위젯 관리를 중앙화하여 UI 관련 코드 복잡도 감소 및 유지보수성과 개발 효율성 향상
 
 ```cpp
 AGangNamPlayerController::AGangNamPlayerController()
